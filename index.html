@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="main">
+        <div class="head">
+
+        </div>
+    
+        <section>
+            <div class="displayarea">
+                <div class="bookdisplay">
+                    <h2>Book Title</h2>
+                    <div class="book">
+                        Select a book on the right
+                    </div>
+                    
+                </div>
+                <div class="col-2">
+                    <div class="search">
+                        <h3>search</h3>
+                        <input type="text" class="serachvalue">
+                        <button onclick="search()">search</button>
+                        <div class="searchdiv"></div>
+                    </div>
+                    <div class="selectbook">
+                        <h3>Select a book</h3>
+
+                        <a onclick="loadalice()" >Alice in Wonderland</a>
+                        <a onclick="loadlord()">THE LORD OF THE RINGS</a>
+                        <a onclick="loaddr()">Dr Jekyll and Mr. Hyde</a>
+                    </div>
+                    <div class="mostUsedwords">
+                        <h3>Most Used words</h3>
+                    </div>
+                    <div class="leastUsedwords">
+                        <h3>Most Used words</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

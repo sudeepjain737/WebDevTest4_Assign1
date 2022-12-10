@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: burlywood;
+}
+
+.main{
+    width: 75%;
+    margin: 0 auto;
+    
+}
+
+.head{
+    /* border: 2px solid; */
+    height: 250px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    background-image: url('javascript.png');
+    
+}
+
+.displayarea{
+    /* border: 2px solid; */
+    height: 500px;
+    display: flex;
+    background-color: burlywood;
+    margin-bottom:  50px;
+    justify-content: space-between;
+}
+
+.bookdisplay{
+    /* border: 2px solid; */
+    /* margin-left: 10px; */
+    width: 55%;
+    height: 500px;
+    background-color: white;
+    border-radius: 5px;
+    
+}
+
+.bookdisplay h2{
+    /* border: 2px solid; */
+    height: 50px;
+    margin-bottom: 10px;
+    padding: 8px 0px 0px 8px;
+    border-bottom: 2px solid gray;
+
+}
+
+div.book {
+    width: 95%;
+    height: 400px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: center;
+    padding: 13px;
+}
+
+.col-2{
+    /* border: 2px solid; */
+    width: 40%;
+    height: 480px;
+    /* padding-top: 0px; */
+    padding: 10px;
+    
+}
+
+.search{
+    /* border: 2px solid; */
+    border-radius: 4px;
+    height: 100px;
+    margin-bottom: 20px;
+    background-color: white;
+    padding: 5px;
+}
+
+.selectbook{
+    /* border: 2px solid; */
+    border-radius: 4px;
+    height: 100px;
+    padding: 5px;
+    margin-bottom: 20px;
+    background-color: white;
+
+}
+
+.selectbook h3{
+    height: 30px;
+    border-bottom: 2px solid gray;
+    margin-bottom: 3px;
+}
+
+.mostUsedwords{
+    /* border: 2px solid; */
+    border-radius: 4px;
+    height: 90px;
+    margin-bottom: 20px;
+    background-color: white;
+    padding: 5px;
+}
+
+.leastUsedwords{
+    /* border: 2px solid; */
+    border-radius: 4px;
+    height: 100px;
+    margin-bottom: 20px;
+    background-color: white;
+    /* padding: 3px; */
+}
+
+.selectbook a{
+    display: block;
+}
+
+.selectbook a:hover{
+    cursor: pointer;
+    color: blue;
+}
+
+button{
+    margin-bottom: 20px;
+}
